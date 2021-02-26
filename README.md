@@ -1,3 +1,10 @@
+[generic_na_cmedeiro@bastion openshift-cd-demo]$ history
+1  git clone https://github.com/siamaksade/openshift-cd-demo.git
+2  cd openshift-cd-demo/
+3  oc get nodes
+4  ll
+5  bash scripts/provision.sh deploy --user admin --ephemeral --project-suffix demo
+
 *For other versions of OpenShift, follow the instructions in the corresponding branch.
 
 # CI/CD Demo - OpenShift Container Platform 4.6
